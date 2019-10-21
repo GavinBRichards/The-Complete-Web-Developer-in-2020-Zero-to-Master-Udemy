@@ -1,3 +1,20 @@
-p {
+/* p {
     color: pink;
+} */
+
+/* .boxmodel {
+    display: inline-block;
+    height: 55px;
+    width: 33px;
+    padding: 5px 20px;
+    border: 5px solid red;
+    margin: 0px 20px 0px 20px;
+} */
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 5rem;
 }

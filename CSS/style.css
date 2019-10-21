@@ -1,6 +1,6 @@
-* {
+/* *{
     text-align: right;
-}
+} */
 
 body {
     background-image: url(bg_img.jpg);
@@ -15,11 +15,20 @@ h2, p {
 }
 
 p {
-    color: blue;
+    line-height: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 180%;
+    font-family: 'Poiret One', cursive;
 }
 
-p {
-    color: green;
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
 }
 
 li {
