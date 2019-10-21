@@ -1,8 +1,46 @@
-h2 {
-    color: red;
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(bg_img.jpg);
+    background-size: cover;
+}
+
+h2, p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(255, 176, 170, 0.5);
+    cursor: pointer;
 }
 
 p {
-    color: pink;
+    color: blue;
 }
 
+p {
+    color: green;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext:last-child {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: blue;
+    opacity: .2;
+}
+
+#div2 {
+    background: red;
+    opacity: .2;
+}
