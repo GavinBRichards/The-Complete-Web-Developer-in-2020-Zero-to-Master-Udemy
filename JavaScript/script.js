@@ -66,8 +66,26 @@ var user = {
   name: "John",
   age: 34,
   hobby: "Soccer",
-  isMarried: false
+  isMarried: false,
+  spells: ["abrakadabra", "shazam", "boo"],
+  shout: function() {
+    console.log("FUS RO DAH!!");
+  }
 };
 console.log(user.name, user.age);
 user.favoriteFood = "spinache";
+user.spells[1];
 console.log(user);
+
+var login = [
+  {
+    username: "andy",
+    password: "secre"
+  },
+  {
+    username: "jess",
+    password: "123"
+  }
+];
+
+console.log(login);
