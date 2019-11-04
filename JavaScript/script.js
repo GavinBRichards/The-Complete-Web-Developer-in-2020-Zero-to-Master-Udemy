@@ -77,6 +77,11 @@ user.favoriteFood = "spinache";
 user.spells[1];
 console.log(user);
 
+var emptyObj = {};
+var nullObj = null;
+// nullObj.name = "andy"; //wont work
+emptyObj.name = "andy"; //will work
+
 var login = [
   {
     username: "andy",
