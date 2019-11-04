@@ -33,6 +33,41 @@ function multiply(a, b) {
   }
 }
 
-alert(multiply(5, 10));
+// alert(multiply(5, 10));
 
 //
+
+var list = ["tiger", "cat", "bear", "bird"];
+console.log(list[1]);
+list.shift();
+console.log(list);
+list.pop();
+console.log(list);
+list.push("elephant");
+console.log(list);
+list.concat(["bee", "deer"]);
+console.log(list);
+list.sort();
+console.log(list);
+var list = [
+  ["tiger", "cat", "bear", "bird"],
+  ["dog", "sheep"],
+  ["turtle", "snake"]
+];
+console.log(list[0][2]);
+
+var functionList = [
+  function apple() {
+    console.log("apple");
+  }
+];
+
+var user = {
+  name: "John",
+  age: 34,
+  hobby: "Soccer",
+  isMarried: false
+};
+console.log(user.name, user.age);
+user.favoriteFood = "spinache";
+console.log(user);
