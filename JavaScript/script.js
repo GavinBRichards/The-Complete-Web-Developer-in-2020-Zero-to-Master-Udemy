@@ -106,13 +106,13 @@ function newFunction() {}
 var newFunction = function() {};
 
 //  expression
-1 + 3;
-var a = 2;
-return true;
+// 1 + 3;
+// var a = 2;
+// return true;
 
 // calling or invoking a function
-alert();
-newFunction(param1, param2);
+// alert();
+// newFunction(param1, param2);
 
 // assign a variable
 var a = true;
@@ -126,3 +126,36 @@ var obj = {
 
 thisIsAFunction();
 obj.thisIsAMethod();
+
+// Loops
+
+var todos = [
+  "clean room",
+  "brush teeth",
+  "exercise",
+  "study javascript",
+  "eat healthy"
+];
+
+// var todosLength = todos.length;
+for (var i = 0; i < todos.length; i++) {
+  todos[i] = todos[i] + "!";
+  // todos.pop();
+  console.log(i);
+}
+
+todos.forEach(function(i) {
+  console.log.log(i);
+});
+
+var counterOne = 10;
+while (counterOne < 10) {
+  console.log("while", counterOne);
+  counterOne++;
+}
+
+var counterTwo = 10;
+do {
+  console.log("do while", counterTwo);
+  counterTwo++;
+} while (counterTwo > 10);
