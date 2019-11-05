@@ -144,9 +144,15 @@ for (var i = 0; i < todos.length; i++) {
   console.log(i);
 }
 
-todos.forEach(function(i) {
-  console.log.log(i);
+todos.forEach(function(todo, i) {
+  console.log.log(todo, i);
 });
+
+function logTodos(todo, i) {
+  console.log(todo, i);
+}
+
+todos.forEach(logTodos);
 
 var counterOne = 10;
 while (counterOne < 10) {
