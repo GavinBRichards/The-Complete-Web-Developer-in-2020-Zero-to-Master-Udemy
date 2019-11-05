@@ -33,5 +33,5 @@ compose(
 // 16
 
 //What are the two elements of a pure function?
-Deterministic
-No Side Effects
+// Deterministic
+// No Side Effects
